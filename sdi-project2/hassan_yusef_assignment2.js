@@ -7,7 +7,8 @@ var matthewsArrives = ' "Road\'s all clear." ',
 	mag = 2,
 	gun = 2,
 	enemy = "steve",
-	JD = true
+	JD = true,
+	jeffAndSara = true,
 	people = [
 	"JD",
 	"Matthews",
@@ -30,9 +31,27 @@ if ( JD === false) {
 };
 
 if ( JD === true) { 
-	console.log("JD's tired, time to send in Matthews." );
+	console.log("JD's tired, time to see if Jeff and Sara are ready." );
 } else { 
 	console.log("Send JD to checkout the city.");
 };
+
+if (jeffAndSara === true) {
+	console.log("Send " + people[2] + " and " + people[3] + " in."); 
+} else { 
+	console.log("I'm stuck with Matthews.");
+};
+
+if (jeffAndSara === false) {
+	console.log("Send " + people[2] + " and " + people[3] + " in."); 
+} else { 
+	console.log("I'm stuck with Matthews.");
+};
+var ammo = 200
+while (ammo > 0) {
+console.log(ammo + " rounds left");
+ammo -=14;
+};
+console.log("Out of ammo.");
 
 console.log(trust + people[1] + ", even when he says" + matthewsArrives);
