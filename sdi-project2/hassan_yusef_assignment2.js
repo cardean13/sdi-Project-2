@@ -49,9 +49,14 @@ if (jeffAndSara === false) {
 };
 var ammo = 200
 while (ammo > 0) {
-console.log(ammo + " rounds left");
-ammo -=14;
+	console.log(ammo + " rounds left");
+		ammo -=14;
 };
-console.log("Out of ammo.");
+	console.log("Out of ammo.");
+
+for (var guns = 4; guns > 0; guns--) {
+	console.log(guns + " guns left.");
+};
+console.log("No more protection.");
 
 console.log(trust + people[1] + ", even when he says" + matthewsArrives);
